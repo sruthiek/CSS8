@@ -5,9 +5,33 @@
 @import './base/fontsize';
 @import './base/spacer';
 @import './base/variables';
+@import './base/mixins';
 
 
 //atom
-@import './atom/header';
+@import './atom/button';
 
 //molecule
+@import './molecule/medcenter';
+@import './molecule/seccard';
+@import './molecule/modern';
+@import './molecule/iconandheading';
+@import './molecule/iconcard';
+@import './molecule/rightimg';
+@import './molecule/imagecard';
+@import './molecule/ourspecialistcard';
+
+
+
+//organism
+@import './organism/sec';
+@import './organism/modernorg';
+@import './organism/careofheart';
+@import './organism/wecareorg';
+@import './organism/ourdepartment';
+@import './organism/globalpresence';
+@import './organism/ourspecialistorg';
+@import './organism/getintouchorg';
+
+
+

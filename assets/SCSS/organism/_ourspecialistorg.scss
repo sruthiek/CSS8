@@ -1,0 +1,19 @@
+.ourspecialist{
+    width: 100%;
+    height: 100vh;
+    // background-color: aqua;
+}
+.specialcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px){
+    .ourspecialist{
+        height: auto;
+    } 
+    .specialcard{
+        display: block;
+    }
+}

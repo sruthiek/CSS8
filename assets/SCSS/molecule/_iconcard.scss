@@ -1,0 +1,27 @@
+.card{
+  width:13% ;  
+  height: 50%;
+  // background-color:$color_1 ;
+  padding: 10PX;
+  display: inline-block;
+  flex-direction: column;
+  &__h3{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+}
+@media screen and (max-width:600px) {
+    .card{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    .card__h3{
+        font-size: 20px;
+    }
+
+}

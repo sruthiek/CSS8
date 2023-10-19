@@ -1,0 +1,48 @@
+.seccard {
+    width: 25%;
+    height: 350px;
+    background-color: $color_2;
+    
+    // border: 1px solid black;
+    display: flex;
+    padding: 10px;
+
+    flex-direction: column;
+
+    &--col {
+        background-color: gray;
+    }
+    &--blue{
+        background-color: rgba(13, 72, 99, 0.685);
+    }
+    &__fa-solid__fa-brain{
+        color:white;font-size:40px;padding-left: 60px;margin-top: 60px;
+    }
+
+    &__h3 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    &__p {
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .seccard{
+        width: auto;
+        padding: 0px;
+    }
+   
+}

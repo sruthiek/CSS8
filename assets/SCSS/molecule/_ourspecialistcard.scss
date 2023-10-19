@@ -1,0 +1,37 @@
+.singlecard{
+    width: 20%;
+    height: 450px;
+    margin: 10px;
+    // background-color: blueviolet;
+    &__up{
+        &__img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+&__body{
+    width: auto;
+    height: auto;
+    background-color: gray;
+    &__h4{
+        font-size: 22px;
+        font-weight: 100;
+        // margin-top: 10px;
+        margin-left: 10px;
+    }
+    &__P{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        // margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+}
+}
+
+@media screen and (max-width:600px) {
+    .singlecard{
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,22 @@
+.btn{
+    margin-left: $spacer-2;
+    margin-top: $spacer-6;
+    margin-bottom: $spacer-4;
+    width: $spacer-8;
+    height: $spacer-7;
+    font-size: $spacer-9;
+    background-color:$color_2 ;
+    color: $color_3;
+    font-weight: bold;
+    &--new{
+        background-color: white;
+        color: black;
+       margin-left: 500px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .btn--new{
+        margin-left: 10px;
+    }
+}

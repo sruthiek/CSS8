@@ -1,0 +1,50 @@
+.getintouch{
+    width: 100%;
+    height: 70vh;
+    background-color: gray;
+    &__name{
+        width: 40%;
+        height: 40px;
+        display: block;
+        background-color: antiquewhite;
+        margin-left: 300px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    &__mail{
+        width: 40%;
+        height: 40px;
+        display: block;
+        background-color: antiquewhite;
+        margin-left: 300px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    &__msg{
+        width: 40%;
+        height: 90px;
+        display: block;
+        background-color: antiquewhite;
+        margin-left: 300px;
+        font-size: 17px;
+        margin-bottom: 10px; 
+    }
+}
+
+@media screen and (max-width:600px){
+    .getintouch{
+        height: auto;
+    }
+    .getintouch__name{
+        width: auto;
+margin-left: 40px;
+    }
+    .getintouch__mail{
+        width: auto;
+        margin-left: 40px; 
+    }
+    .getintouch__msg{
+        width: auto;
+        margin-left: 40px;  
+    }
+}
